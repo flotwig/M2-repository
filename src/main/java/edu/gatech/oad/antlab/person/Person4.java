@@ -52,6 +52,5 @@ public class Person4 {
     public String toString(String input) {
       return name + calc(input);
     }
-
 }
 
