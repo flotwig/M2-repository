@@ -48,7 +48,6 @@ public class Person3 {
         {
             System.out.print(value[i]);
         }
-    }
 	  return null;
 	}
 }
