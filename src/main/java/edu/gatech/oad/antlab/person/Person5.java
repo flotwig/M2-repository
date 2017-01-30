@@ -30,8 +30,10 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
+        String newString;
+
         if (input.length() > 0) {
-            String newString = input.substring(input.length() - 2,
+            newString = input.substring(input.length() - 2,
 	  	        input.length()) + input.substring(0, input.length() - 2);
         } else {
         	newString = input;
@@ -50,10 +52,6 @@ public class Person5 {
 	 */
 	public String toString(String input) {
 	  return name + calc(input);
-	}
-
-	public static void main(String[] args) {
-		System.out.println(calc("Jake"));
 	}
 
 }
